@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img,
+a img {
+    outline: 0;
+    border: 0
+}
+
+
+p {
+    margin: 0 0 1em 0
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+a:focus,
+a:active {
+    cursor: pointer;
+    color: white
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+html {
+    font-family: "Lato", Sans-Serif;
+    line-height: 1.6;
+    font-size: 15px;
+    font-weight: 400
+}
+
+@media (max-width: 830px) {
+    html {
+        font-size: 14px
+    }
+}
+
+@media (max-width: 550px) {
+    html {
+        font-size: 13px
+    }
+}
+
+body {
+    background: #191A1D;
+    color: white
+}
+
+h1 {
+    line-height: 1.15;
+    margin: 0 0 10px 0;
+    font-size: 2.8rem
+}
+
+
+
+/* buttons */
+
+.button {
+    line-height: 1.2;
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+    border-radius: 3px;
+    border: 3px solid transparent;
+}
+
+.button.big {
+    font-size: 1.75em
+}
+
+.button.medium {
+    background: #36383F;
+    color: white
+}
+
+.button.medium:hover {
+    background: #434343;
+}
+
+.button.green {
+    background: #4BCE79;
+    color: #000
+}
+
+.button.green:hover {
+    background: #248f45
+}
+
+.button.dark {
+    background: #111
+}
+
+.button.dark:hover {
+    background: #1e1e1e
+}
